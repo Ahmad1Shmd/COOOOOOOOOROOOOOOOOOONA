@@ -21,7 +21,7 @@ for(i=0; i<data.Countries.length; i++) {
     document.write("<td>" + data.Countries[i].Country + "</td>")
     document.write("<td>" + data.Countries[i].TotalConfirmed + "</td>")
     document.write("<td>" + data.Countries[i].NewConfirmed + "</td>")
-    document.write("<td>" + data.Countries[i].TotalDeaths + "</td>")
+    document.write("<td class='bg-danger'>" + data.Countries[i].TotalDeaths + "</td>")
     document.write("<td class='bg-danger'>" + data.Countries[i].NewDeaths + "</td>")
 
     document.write("</tr>")
